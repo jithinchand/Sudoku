@@ -180,7 +180,7 @@ public class Sudoku
             }
             if(flag == 1) break;
         }
-        
+
         while(!validValue(validRow, validCol, grid) || grid[validRow][validCol] == 0)
         {
             if(holder[currentRow][currentCol]!=0)
